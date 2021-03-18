@@ -114,7 +114,7 @@ console.log(this.state.load);
 
                <div className="row" >
                     {this.state.flag?this.props.naruto.naruto.results.slice(0,this.state.load).map((el,index)=>(
-                        <div className="col-md-4 mt-1" id={index} onLoad={()=>this.loader(index)}>
+                        <div className="col-md-4 mt-3" id={index} onLoad={()=>this.loader(index)}>
                         <div className="card-deck">
 
                         <div className="card bg-light text-dark " >
